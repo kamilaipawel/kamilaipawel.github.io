@@ -86,6 +86,39 @@ img {
     width: 100%;
 }
 
+.rsvp {
+    display: block;
+    font-size: 35px;
+    padding: 15px;
+    border: 4px solid;
+    border-radius: 1000px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.rsvp:hover {
+    color: #99D2FF;
+}
+
+
+@media print
+{
+    .footer-image, .banner-image, .extra-image, .rsvp
+    {
+        display: none !important;
+    }
+}
+
+@media (max-width: 630px) {
+    .rsvp {
+        border-width: 3px;
+        font-size: 25px;
+        width: 90%;
+    }
+}
+
 .banner-wrapper {
     display: relative;
 }
@@ -137,9 +170,8 @@ img {
 
 .content p {
     font-size: 18px;
-    line-height: 130%;
+    line-height: 150%;
     margin-bottom: 15px;
-    text-align: justify;
 }
 
 footer .content {
