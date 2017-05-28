@@ -67,12 +67,13 @@ footer {
 }
 
 a, a:visited {
-    color: #0039DA;
+    color: #4D86FF;
     text-decoration: none;
+    transition: all 0.5s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #0039DA;
 }
 
 strong {
